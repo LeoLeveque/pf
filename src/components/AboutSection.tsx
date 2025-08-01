@@ -6,7 +6,7 @@ export const AboutSection = () => (
         <h2 className="text-3xl font-extrabold mb-2, text-gray-800">About Me</h2>
         <p className="text-gray-700 mb-10">{portfolioData.about}</p>
         <div className="grid gap-6 md:grid-cols-2 mb-10">
-            <div className="bg-white/10 backdrop-blur-md text-gray-700 rounded-2xl shadow-md p-6 text-left">
+            <div className="bg-white/50 backdrop-blur-md text-gray-700 rounded-2xl shadow-md p-6 text-left">
                 <div className="text-indigo-400 text-4xl mb-3">
                     <i className="fa-solid fa-bullseye"></i>
                 </div>
@@ -18,7 +18,7 @@ export const AboutSection = () => (
             </div>
             <div className="grid gap-6">
                 {portfolioData.aboutMission.features.map((feature) => (
-                    <div key={feature.title} className="bg-white/10 backdrop-blur-md text-gray-700 rounded-2xl shadow-md p-6">
+                    <div key={feature.title} className="bg-white/50 backdrop-blur-md text-gray-700 rounded-2xl shadow-md p-6">
                         <div className={`${feature.iconColor} text-3xl mb-3`}>
                             <i className={feature.icon}></i>
                         </div>
@@ -30,7 +30,7 @@ export const AboutSection = () => (
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {portfolioData.aboutHighlights?.map((highlight) => (
-                <div key={highlight.title} className="bg-white/10 backdrop-blur-md text-gray-700 rounded-2xl shadow-md p-6 transition transform hover:scale-[1.02]">
+                <div key={highlight.title} className="bg-white/50 backdrop-blur-md text-gray-700 rounded-2xl shadow-md p-6 transition transform hover:scale-[1.02]">
                     <div className="text-4xl mb-3 text-indigo-400">
                         <i className={highlight.icon}></i>
                     </div>
@@ -43,7 +43,7 @@ export const AboutSection = () => (
             {portfolioData.aboutStats.map((stat, index) => (
                 <div
                     key={index}
-                    className="bg-white/30 backdrop-blur-md rounded-2xl p-6 text-center shadow-md"
+                    className="p-6 text-center"
                 >
                     <p className={`text-4xl font-extrabold ${stat.color} mb-2`}>{stat.value}</p>
                     <p className="text-gray-800 font-medium">{stat.label}</p>

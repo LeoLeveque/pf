@@ -1,4 +1,6 @@
 export const portfolioData = {
+
+  "isAvailable": true,
   "name": "Leo Leveque",
   "title": "Freelance Backend Software Engineer",
   "description": "I build robust, scalable, and clean backend systems using modern technologies.",
@@ -7,12 +9,12 @@ export const portfolioData = {
     {
       "icon": "fa-solid fa-bullseye",
       "title": "My Mission",
-      "description": "Turning your ideas into digital solutions"
+      "description": "Turning your ideas into digital solutions and/or integrate your team"
     },
     {
       "icon": "fa-solid fa-code",
-      "title": "Full-Stack Development",
-      "description": "Expertise across the full web stack"
+      "title": "Back end Development",
+      "description": "Expertise across back end stack"
     },
     {
       "icon": "fa-solid fa-lightbulb",
@@ -21,14 +23,14 @@ export const portfolioData = {
     }
   ],
   aboutStats: [
-    { value: "20+", label: "Completed Projects", color: "text-indigo-500" },
-    { value: "5+", label: "Years of Experience", color: "text-green-600" },
+    { value: "5+", label: "Completed Projects", color: "text-indigo-500" },
+    { value: "3+", label: "Years of Experience", color: "text-green-600" },
     { value: "100%", label: "Client Satisfaction", color: "text-pink-600" },
   ],
   "aboutMission": {
-    "title": "My Mission",
-    "subtitle": "Turning your ideas into digital solutions",
-    "text": "As a freelance software engineer, I specialize in building modern, high-performance web applications. My expertise spans the full development cycle—from concept to deployment. I prioritize user-centered design and leverage the latest technologies to create exceptional digital experiences tailored to each project's needs.",
+    "title": "Me, Leo Leveque",
+    "subtitle": "A briant software engineer",
+    "text": "As a freelance software engineer, I specialize in building modern, high-performance back end applications. My expertise spans the full development cycle, from concept to deployment. I prioritize user-centered design and leverage the latest technologies to create exceptional digital experiences tailored to each project's needs.",
     "features": [
       {
         "title": "Quality Commitment",
@@ -46,71 +48,70 @@ export const portfolioData = {
   },
   "skillsGrouped": [
     {
-      "title": "Frontend",
-      "items": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "Angular"]
-    },
-    {
       "title": "Backend",
-      "items": ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB"]
+      "items": ["Java", "C", "C++", "Python", "Node.js", "SQL"]
     },
     {
       "title": "DevOps & Tools",
-      "items": ["Docker", "AWS", "Git", "CI/CD", "Linux", "Kubernetes"]
+      "items": ["Docker", "Git", "CI/CD", "Linux", "Kubernetes"]
     },
     {
-      "title": "Mobile",
-      "items": ["React Native", "Flutter", "iOS", "Android", "Expo"]
+      "title": "Frontend",
+      "items": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Refine"]
+    },
+    {
+      "title": "Methode",
+      "items": ["Agile", "Scrum", "Kanban", "Project Management", "XP", "TDD"]
     }
   ],
   "projects": [
     {
-      "title": "E-Commerce Platform",
-      "description": "descir",
-      "tech": ["oui", "non"],
-      "github": "...",
-      "demo": "https://...",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
+      "title": "TraduFeu",
+      "description": "A creative and playful app that transforms French phrases into the imaginary 'Fe' language using phonetic rules. This project was also an opportunity to experiment with local LLMs and GPT-4 integration.",
+      "tech": ["TypeScript", "React", "Bun", "GPT-4", "Local LLM", "Tailwind CSS"],
+      "github": "https://github.com/LeoLeveque/tarduFeu",
+      "demo": "http://localhost:5175/fe",
+      "image": "/images/tradufeu.png"
     },
     {
-      "title": "E-Commerce Platform",
-      "description": "descir",
-      "tech": ["oui", "non"],
-      "github": "...",
-      "demo": "https://...",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
+      "title": "Madvision - Student Management System",
+      "description": "A complete student management platform built for a training center in Madagascar. It includes authentication, CSV import/export, dynamic filtering... Built with Refine, Tailwind, Bun, Express, and SQLite.",
+      "tech": ["Typescript", "Express", "swagger", "React", "Refine", "Tailwind", "Bun", "SQLite",],
+      "github": "https://github.com/LeoLeveque/gestion-eleves-madvision",
+      "demo": "",
+      "image": "/images/madvision.png"
     },
     {
-      "title": "E-Commerce Platform",
-      "description": "descir",
-      "tech": ["oui", "non"],
-      "github": "...",
-      "demo": "https://...",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
-    },
+      "title": "SAP Convergent Charging",
+      "description": "Backend and front end development for SAP Convergent Charging, a high-performance Java-based platform used by major telecom operators worldwide to handle real-time charging logic, policies, and scalability. Worked on features, bug fixes, and performance tuning during my apprenticeship at SAP Labs France.",
+      "tech": ["Java", "rest API", "Spring", "JUnit", "Eclipse", "Jenkins", "Agile", "SAP CAP CDS", "Fiori element"],
+      "demo": "",
+      "image": "/images/sap.png"
+    }
   ],
   "contact": {
-    "email": "leo@example.com",
-    "phone": "+33 6 12 34 56 78",
-    "location": "Paris, France",
-    "linkedin": "https://linkedin.com/in/leoleveque",
+    "email": "leoleveque0@gmail.com",
+    "phone": "+33 6 02 71 48 68",
+    "location": "Caen and Paris, France + remote",
+    "linkedin": "https://www.linkedin.com/in/leo-leveque/",
     "github": "https://github.com/leoleveque",
-    "cv": "/leo_cv.pdf"
+    "cv": "/cv_leo_leveque.pdf"
   },
   footer: {
     title: "Freelance Software Engineer",
-    subtitle: "Let's build your next project together",
+    subtitle: "Let's work onto your next project together",
     socialLinks: [
       {
         icon: "fa-brands fa-github",
-        href: "https://github.com/leo",
+        href: "https://github.com/leoleveque",
       },
       {
         icon: "fa-brands fa-linkedin",
-        href: "https://linkedin.com/in/leoleveque",
+        href: "https://www.linkedin.com/in/leo-leveque/",
       },
       {
         icon: "fa-solid fa-envelope",
-        href: "mailto:leo@example.com",
+        href: "leoleveque0@gmail.com",
       },
     ],
     copyright: "© 2025 - All rights reserved",

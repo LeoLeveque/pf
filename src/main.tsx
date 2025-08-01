@@ -1,16 +1,19 @@
 import { createRoot } from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import { HeroSection } from "./components/HeroSection";
 import { AboutSection } from "./components/AboutSection";
 import { SkillsSection } from "./components/SkillsSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { ContactSection } from "./components/ContactSection";
 import { Header } from "./components/header";
+import { Footer } from "./components/Footer";
+
+import FePage from "./pages/FeTranslator";
 import "./index.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import {Footer} from "./components/Footer";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
-
-const App = () => {
+function Home() {
     return (
         <main className="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 min-h-screen w-full text-white">
             <div className="fixed inset-0 pointer-events-none overflow-hidden">
@@ -21,6 +24,7 @@ const App = () => {
                 <div className="absolute -bottom-40 right-1/3 w-96 h-96 bg-gradient-to-br from-teal-400/20 to-indigo-600/20 rounded-full blur-3xl animate-pulse delay-1500"></div>
                 <div className="absolute bottom-1/4 -right-20 w-64 h-64 bg-gradient-to-br from-yellow-400/20 to-pink-600/20 rounded-full blur-3xl animate-pulse delay-3000"></div>
             </div>
+
             <Header />
             <div className="max-w-5xl mx-auto px-4 space-y-20 py-12">
                 <HeroSection />
@@ -30,8 +34,18 @@ const App = () => {
                 <ContactSection />
                 <Footer />
             </div>
-            );
         </main>
+    );
+}
+
+const App = () => {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/fe" element={<FePage />} />
+            </Routes>
+        </BrowserRouter>
     );
 };
 
