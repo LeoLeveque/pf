@@ -2,45 +2,57 @@ export const portfolioData = {
 
   "isAvailable": true,
   "name": "Leo Leveque",
-  "title": "Freelance Backend Software Engineer",
-  "description": "I build robust, scalable, and clean backend systems using modern technologies.",
+  "title": "FullStack and Backend Software Engineer",
+  "description": "I enjoy building robust and scalable software, with a strong focus on Java, APIs, backend architecture, and full-stack development.",
   "about": "about",
   "aboutHighlights": [
     {
       "icon": "fa-solid fa-bullseye",
-      "title": "My Mission",
-      "description": "Turning your ideas into digital solutions and/or integrate your team"
+      "title": "My Goal",
+      "description": "Build reliable and scalable software solutions within a challenging technical environment"
     },
     {
       "icon": "fa-solid fa-code",
-      "title": "Back end Development",
-      "description": "Expertise across back end stack"
+      "title": "Software Engineering",
+      "description": "3 years of hands-on experience with Java, Spring Boot, APIs, backend and full-stack development at SAP"
     },
     {
       "icon": "fa-solid fa-lightbulb",
-      "title": "Innovative Solutions",
-      "description": "Creative approaches to complex technical challenges"
+      "title": "Problem Solving",
+      "description": "Enjoy designing clean and maintainable solutions to complex technical challenges"
     }
   ],
-  aboutStats: [
-    { value: "5+", label: "Completed Projects", color: "text-indigo-500" },
-    { value: "3+", label: "Years of Experience", color: "text-green-600" },
-    { value: "100%", label: "Client Satisfaction", color: "text-pink-600" },
+  "aboutStats": [
+    {
+      "value": "5+",
+      "label": "Completed Projects",
+      "color": "text-indigo-500"
+    },
+    {
+      "value": "3+",
+      "label": "Years of Experience",
+      "color": "text-green-600"
+    },
+    {
+      "value": "100%",
+      "label": "Motivated and Committed",
+      "color": "text-pink-600"
+    }
   ],
   "aboutMission": {
     "title": "Me, Leo Leveque",
-    "subtitle": "A briant software engineer",
-    "text": "As a freelance software engineer, I specialize in building modern, high-performance back end applications. My expertise spans the full development cycle, from concept to deployment. I prioritize user-centered design and leverage the latest technologies to create exceptional digital experiences tailored to each project's needs.",
+    "subtitle": "A passionate software engineer",
+    "text": "I am a software engineer specializing in building modern, high-performance backend and full-stack applications. With experience across the full development lifecycle, I enjoy turning complex problems into reliable and maintainable solutions. I focus on writing clean, scalable code and leveraging modern technologies to build software that delivers real value.",
     "features": [
       {
         "title": "Quality Commitment",
-        "description": "Clean code, best practices and on-time delivery",
+        "description": "Clean code, best practices, and reliable delivery",
         "icon": "fa-solid fa-award",
         "iconColor": "text-green-300"
       },
       {
         "title": "Global Vision",
-        "description": "Scalable solutions for international needs",
+        "description": "Scalable solutions designed for international needs",
         "icon": "fa-solid fa-globe",
         "iconColor": "text-purple-300"
       }
@@ -49,7 +61,7 @@ export const portfolioData = {
   "skillsGrouped": [
     {
       "title": "Backend",
-      "items": ["Java", "C", "C++", "Python", "Node.js", "SQL"]
+      "items": ["Java", "C", "C++", "Python", "Node.js", "SQL", "GOLang"]
     },
     {
       "title": "DevOps & Tools",
@@ -70,7 +82,7 @@ export const portfolioData = {
       "description": "A creative and playful app that transforms French phrases into the imaginary 'Fe' language using phonetic rules. This project was also an opportunity to experiment with local LLMs and GPT-4 integration.",
       "tech": ["TypeScript", "React", "Bun", "GPT-4", "Local LLM", "Tailwind CSS"],
       "github": "https://github.com/LeoLeveque/tarduFeu",
-      "demo": "http://localhost:5175/fe",
+      "demo": "",
       "image": "/images/tradufeu.png"
     },
     {
@@ -92,14 +104,14 @@ export const portfolioData = {
   "contact": {
     "email": "leoleveque0@gmail.com",
     "phone": "+33 6 02 71 48 68",
-    "location": "Caen and Paris, France + remote",
+    "location": "Paris, France and/or remote",
     "linkedin": "https://www.linkedin.com/in/leo-leveque/",
     "github": "https://github.com/leoleveque",
     "cv": "/cv_leo_leveque.pdf"
   },
   footer: {
-    title: "Freelance Software Engineer",
-    subtitle: "Let's work onto your next project together",
+    title: "Full-Stack and backend Software Engineer",
+    subtitle: "Let's work together",
     socialLinks: [
       {
         icon: "fa-brands fa-github",
@@ -111,7 +123,7 @@ export const portfolioData = {
       },
       {
         icon: "fa-solid fa-envelope",
-        href: "leoleveque0@gmail.com",
+        href: "mailto:leoleveque0@gmail.com",
       },
     ],
     copyright: "© 2025 - All rights reserved",

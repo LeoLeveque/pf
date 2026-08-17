@@ -3,8 +3,9 @@ import { portfolioData } from "../data/portfolio";
 export const ContactSection = () => (
     <section id="contact" className="text-center">
         <h2 className="text-3xl font-extrabold mb-2 text-gray-900">Contact Me</h2>
-        <p className="text-gray-700 mb-10">Have a project in mind? Let's discuss how I can help you.</p>
-        <div className="grid gap-6 md:grid-cols-3">
+        <p className="text-gray-700 mb-10">
+        I'm currently looking for a Software Engineer opportunity. Let's talk about how I could contribute to your team.
+        </p>        <div className="grid gap-6 md:grid-cols-3">
             <form
                 action="https://formspree.io/f/xovllpyq"
                 method="POST"
